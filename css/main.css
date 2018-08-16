@@ -1,0 +1,338 @@
+*{
+	margin:0; 
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*this was used for body tag
+    background: rgba(47,47,47,0.98);*/
+body{
+	/*background: #D25B34;
+    background-image: linear-gradient(to bottom, #D25B34, #F5A746);*/
+    background-image: url(https://wakefieldsjewellers.co.uk/media/wysiwyg/Pre-Owned-Watches-Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	/*height: 100vh;*/
+	font-size: 20px;
+  font-family: monospace;
+}
+header{
+    
+	  flex: 1;
+    border-bottom: 2px solid #fffce0;
+    margin-top: 15px;
+    
+}
+a, li{
+	text-decoration: none;
+  list-style-type: none;
+	/*color: #034851;
+	text-shadow: 0 0 2px #8BC34A, 0 0 2px #CDDC39;*/
+    font-size: 30px;
+}
+.content{
+	width: 90%;
+	height: 80vh;
+	display: flex;
+	margin: auto;	
+}
+.box{
+	/*border: 12px solid #28052e;
+    border-bottom-color: rgba(227, 74, 25, 0);
+    border-top-color: rgba(227, 74, 25, 0);*/
+    display: flex;
+	flex-wrap: wrap;
+   /* border: 35px solid transparent;
+    border-bottom-color: rgb(242, 161, 68);
+    border-top-color: rgb(244, 165, 70);
+    border-left-color: rgb(242, 161, 68);
+    border-right-color: rgb(244, 165, 70);*/
+/*    background: #28052e;
+*/	
+background: #170a02e3;
+position: relative;
+	border-radius: 20px;
+    /*border: 2px outset #000;
+  	box-shadow: 1px 1px 0 0 #28052e, 2px 2px 0 0 #28052e, 3px 3px 0 0 #28052e, 4px 4px 0 0 #28052e, 5px 5px 5px 0 #28052e;
+*/
+	width: 90%;
+	height: 80vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+	/*background: #28052e;
+	box-shadow: inset -1px -4px 34px -1px rgba(102,66,102,1);*/
+	/*transform: translate(3%,3%);*/
+	
+}
+/*.box::before{
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  height: 50%;
+  /*
+  * Reduce width so shadow doesn't extend past the box
+  */
+  width: 94%;
+  left: 3%;
+  right: 3%;
+  bottom: 0px;
+  /*
+  * Rounding the shadow gives it more of an elipse look
+  
+  border-radius: 40px;
+  /*
+  * Set the box-shadow colour to be a darkened shade
+  * of the background for a more natural looking shadow.
+  
+  box-shadow: 0 2px 120px rgba(0,0,0,.75), 0 2px 120px rgba(0,0,0,.75);
+}*/
+
+#top-nav{
+	
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+ #top-nav a{
+/* 	color: #8F9F7C;
+*/	
+ color: #e8b36a;
+text-align: right;
+	text-decoration: none;
+ 	padding: 10px 25px;
+ 	    
+}
+#top-nav ul{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: flex-end;
+}
+ 
+ a.active , #top-nav a:hover{
+#081b2b
+ 	color: #f8d58c;
+ }
+.home{
+	opacity: 1;
+  	transition: opacity 1s;
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+  	align-content: center;
+  	margin: auto;
+  
+ }
+ .home[hidden]{
+ 	display: none
+ /*	transform: scaleY(0);*/
+ }
+#title{
+	
+	flex: 2;
+    margin: auto;
+	
+}
+ #title h1 {
+ 	color: #fffce0;
+ 	text-align:center;
+ 	
+/* 	font-family: 'Rakkas', cursive;
+*/ 	
+font-family: font-family: 'Slabo 50px', serif;
+font-size: 80px;
+ 	/*transform: rotateX(150deg);*/
+ }
+
+ #title p{
+ 	padding:50px ;
+ 	color:#ddd;
+ 	text-align: justify;
+ 	font: 20px “Helvetica Neue”, Helvetica, Arial, sans-serif;
+
+ }
+#imageHomePage{
+	flex: 1;
+    margin: auto;
+}
+ #imageHomePage img{
+	width:170px; 
+	height: 280px;
+	border-radius: 6%;
+    border: 2px solid #fffde3;
+    box-shadow: -2px -2px 2px #fffde5,2px 2px 2px #fffde6;
+        margin-left: 100px;
+}
+
+  .footer-content{
+ 	text-align: center;
+ 	font: 18px “Helvetica Neue”, Helvetica, Arial, sans-serif;
+/* 	background-color: #ffa61c;
+*/ 	
+color: #470217;
+background-color: #ffed8f ;
+border-radius: 15px;
+ 	padding: 8px;
+ 	width: 100%;
+ 	margin:auto;
+ 	
+ }
+
+.aboutMe{
+	/*position: absolute;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80vh;
+	margin-top: 35%;
+	margin-bottom: 5%;
+	background: #8d5c27;*/
+	color:  #fffce0;
+  margin: auto;
+  font-size: 24px;
+  font-family: monospace;
+  text-align: justify;
+
+
+}
+.aboutMe img{
+	width:150px; 
+	height: 100px;
+}
+.aboutMe a{
+  text-decoration: none;
+  color: #fff;
+}
+.projects{
+  	display: none;
+  	display: flex;
+    flex-wrap: wrap;
+  	justify-content: center;
+  	margin: auto;
+  	opacity: 1;
+  	transition: opacity 1s;
+  	/*delay ease;*/
+}
+.projects[hidden]{
+	display: none;
+	
+}
+.projects .projectBox{
+	cursor: pointer;
+ 	width: 200px;
+ 	height:200px;
+ 	background-color: #fff;
+ 	margin: 15px;
+}
+
+
+#project1{	
+
+background-image: url(https://social.eyeforpharma.com/sites/default/files/quiz.jpg);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project2{
+	background-image: url(https://www.norebbo.com/wp-content/uploads/2011/05/tablet_search_you_tube.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project3{
+  background-image: url(http://getwallpapers.com/wallpaper/full/9/3/7/524661.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hoverBox{
+	display: none;
+}
+.projects .projectBox:hover .hoverBox{
+	display: block;
+  background: rgba(8,27,43,0.8);/* #081b2b*/
+/*	background: rgba(48,57, 92,0.3);
+*/	height: 100%;
+	transition: all .7s ease;
+
+}
+.hoverBox a{
+  color: #fff;
+}
+.projects .projectsBox .hoverBox h3{
+  	font-size: 30px;
+  	font-weight: bold;
+  	margin-bottom: 15px;
+  	color: red;
+  }
+  .projects .projectsBox .hoverBox h5{
+  	font-size: 18px;
+  	color: green;
+  	
+  }
+.resumeBox a{
+	font-size: 40px;
+    color: #fffce0;
+}
+
+  .resumeBox{
+  	display: flex;
+    margin: auto;
+    font-size: 40px;
+    color: #fffce0;
+  }
+  .resumeBox[hidden]{
+  	display: none;
+  }
+  #resumeImage{
+    border-radius: 50%;
+    border: 6px solid #fff;
+  }
+  .resumeBox h1{
+  	color: #fff;
+  	font-style: bold;
+  }
+  .resumeBox .resume{
+  	
+  	opacity: 1;
+  	transition: opacity 1s;
+  	
+		
+  }
+
+
+/* if device width is less than or equal to 600px*/
+@media only screen and (max-width: 750px){
+  
+  #top-nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+.box{height: auto;}
+.content{height: auto;}
+  .home{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #title h1{
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  #imageHomePage img{
+    margin-left: 0px;
+  }
+.footer-content{
+  margin: 15px 0px 15px 0px;
+}
+.projects{
+  flex-direction: column;
+  
+}
+}
+
+

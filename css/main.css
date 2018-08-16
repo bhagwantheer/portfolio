@@ -282,6 +282,9 @@ background-image: url(https://social.eyeforpharma.com/sites/default/files/quiz.j
 
   .resumeBox{
   	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: .7;
     margin: auto;
     font-size: 40px;
     color: #fffce0;
@@ -333,6 +336,15 @@ background-image: url(https://social.eyeforpharma.com/sites/default/files/quiz.j
   flex-direction: column;
   
 }
+#resumeImage{
+  width: 100px;
+  height:100px;
+  margin: auto;
+  margin-top: 50px;
+}
+.resumeBox h1{
+  margin-bottom: 80px;
+  }
 }
 
 
